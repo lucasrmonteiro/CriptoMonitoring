@@ -1,0 +1,56 @@
+﻿services:
+  criptmonitoring.worker:
+    image: criptmonitoring.worker.btc
+    build:
+      context: .
+      dockerfile: CriptMonitoring.Worker.Btc/Dockerfile
+    networks:
+      - criptmonitoring-network
+
+#  criptmonitoring.worker.eth:
+#    image: criptmonitoring.worker.eth
+#    build:
+#      context: .
+#      dockerfile: CriptMonitoring.Worker.Eth/Dockerfile
+#    networks:
+#      - criptmonitoring-network
+        
+#  criptmonitoring.api:
+#    image: criptmonitoring.api
+#    build:
+#      context: .
+#      dockerfile: CriptMonitoring.API/Dockerfile
+#    ports:
+#      - "5000:80"
+#      - "5001:443"
+#    environment:
+#      - ASPNETCORE_ENVIRONMENT=Development
+#      - ASPNETCORE_URLS=https://+:443;http://+:80
+#      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+#      - ASPNETCORE_Kestrel__Certificates__Default__Path=C:\https\aspnetapp.pfx
+#    volumes:
+#      - ${USERPROFILE}\.aspnet\https:C:\https:ro
+#    networks:
+#      - criptmonitoring-network
+    
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - '27017:27017'
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+    volumes:
+        - mongodb-data:/data/db
+    networks:
+      - criptmonitoring-network
+
+networks:
+  criptmonitoring-network:
+    driver: bridge
+    
+volumes:
+    mongodb-data:
+        driver: local

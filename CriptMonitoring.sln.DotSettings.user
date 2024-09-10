@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAbstractInvocation_002Ecs_002Fl_003AC_0021_003FUsers_003Flucas_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F34e54cf52b4a4c2b82645ccc3a46837e5e000_003F23_003Fa279aab8_003FAbstractInvocation_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ACastleProxyFactory_002Ecs_002Fl_003AC_0021_003FUsers_003Flucas_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F4e8315746988a4c77acdb2357d1b9f99c910c1fb9ee86eed9510dbfbfda7_003FCastleProxyFactory_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AUtf8JsonReader_002ETryGet_002Ecs_002Fl_003AC_0021_003FUsers_003Flucas_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F6cc9714a1269393e420226c566b36e7c7d6e97858aef1ffe8e3dc4299225adb_003FUtf8JsonReader_002ETryGet_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=02130964_002D9d5e_002D4eb0_002D9307_002Df4fb884b8344/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BitstampServiceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F6281BFC-C2EB-45D2-8B41-868D3B560F46::net8.0::CriptMonitoring.Application.Test.Services.BitstampServiceTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7ae522d7_002D57f8_002D46ee_002Db08d_002D9805021202fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetStatics_ValidCripto_ReturnsCorrectStatistics" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F6281BFC-C2EB-45D2-8B41-868D3B560F46::net8.0::CriptMonitoring.Application.Test.Services.BitstampServiceTest.GetStatics_ValidCripto_ReturnsCorrectStatistics&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F6281BFC-C2EB-45D2-8B41-868D3B560F46::net8.0::CriptMonitoring.Application.Test.Services.BitstampServiceTest.ProcessCripto_ValidMessage_ProcessesSuccessfully&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F6281BFC-C2EB-45D2-8B41-868D3B560F46::net8.0::CriptMonitoring.Application.Test.Services.OperationServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F7D28896-336D-497B-B340-9A7055B13E50::net8.0::CriptMonitoring.Data.Tests.Repository.BitstampRepositoryTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
